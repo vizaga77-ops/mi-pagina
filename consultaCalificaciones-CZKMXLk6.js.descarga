@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#revisarDesempeno").click(function(){$.redirect("https://www.facmed.unam.mx/registro/misresultados/entrada.php",{numeroCuenta:$("#numero_cuenta").val(),sesionActiva:"S"},"POST","_blank")}),document.querySelectorAll(".watermarked").forEach(function(e){e.dataset.watermark=(e.dataset.watermark+" ").repeat(500)})});

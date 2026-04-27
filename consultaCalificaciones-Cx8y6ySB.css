@@ -1,0 +1,1 @@
+.watermarked{position:relative;overflow:hidden}.watermarked img{width:100%}.watermarked:before{position:absolute;top:-95%;left:-95%;display:block;width:250%;height:250%;transform:rotate(-45deg);content:attr(data-watermark);opacity:.6;line-height:4em;letter-spacing:2px;color:#d3d3d3}
